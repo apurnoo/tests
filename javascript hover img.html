@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript">
+            $(document).ready(function(){
+               $('a img').animate({
+               	opacity:.5
+               });
+               $('a img').hover(function(){
+                   $(this).stop().animate({opacity:1},'fast');
+               },function(){
+               	   $(this).stop().animate({opacity:.5},'fast');
+               });
+
+            });
+
+		</script>
+<style>
+body{
+	padding: 100px;
+}
+img{
+	width: 230px;
+	height: 230px;
+	float:left;
+	padding: 10px;
+	margin: 10px;
+}
+</style>
+</head>
+<body>
+
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+<a><img src="images/Chrysanthemum.jpg" /></a>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
